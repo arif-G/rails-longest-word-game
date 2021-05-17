@@ -1,0 +1,14 @@
+game loop:
+  ☐ start game
+  ☐ 30 seconds per round
+  ☐ on submit
+    ☐ add word
+    ☐ if not error
+    ☐ if error show error indicator
+    ☐ show words in list javascript
+    ☐ round finished show button
+    ☐ next round
+    ☐ do again
+    ☐ store all in session stuff
+    ☐ if finished
+    ☐ show score screen

@@ -1,0 +1,15 @@
+<ul class="letters">
+  <%@letters.each do |letter| %>
+    <li><%= letter %></li>
+  <%end%>
+</ul>
+<form action="#" id="form">
+  <input type="text" name="word" id="wordInput">
+  <input type="submit" value="Submit">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+</form>
+
+<div id="timer"></div>
+
+<ul id="correctGuesses">
+</ul>
